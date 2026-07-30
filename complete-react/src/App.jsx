@@ -2,10 +2,10 @@ import Card from "./components/card"
 
 const App = () => {
   return (
-   <>
-      <Card/>
-      
-   </>
+   <div className="parent">
+    <Card user="aman"/>
+    <Card user="divyanshu"/>
+   </div>
     
   )
 }
