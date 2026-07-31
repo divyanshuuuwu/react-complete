@@ -1,22 +1,24 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = () => {
+const Card = (props) => {
+  console.log(props)
   return (
     <div className='card'>
       <div className="top">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png" alt="" />
+        <img src={props.data.brandLogo} alt="" />
+        <span>{props.data.datePosted}</span>
         <button className='savebtn'>save</button>
       </div>
       <div className="center">
-        <h3>Google</h3>
-        <h1>Software Dev</h1>
-        <span>Part-Time</span> <span>Flexible Schedule</span>
+        <h3>{props.data.companyName}</h3>
+        <h1>{props.data.post}</h1>
+        <span>{props.data.tag1}</span> <span>{props.data.tag2}</span>
       </div>
       <div className="bottom">
         <div className="des">
-          <h3>$100k-150k</h3>
-        <h5>Delhi, India</h5>
+          <h3>{props.data.pay}</h3>
+        <h5>{props.data.location}</h5>
         </div>
         <button className="applynow">Apply now</button>
       </div>
