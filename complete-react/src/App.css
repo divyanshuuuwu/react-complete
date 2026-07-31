@@ -1,0 +1,5 @@
+.cards-container {
+  display: flex;
+  gap: 20px;       /* Space between cards */
+  flex-wrap: wrap; /* Moves cards to the next line if needed */
+}

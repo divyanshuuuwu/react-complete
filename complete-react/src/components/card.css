@@ -5,7 +5,6 @@
  width: 250px;
  margin: 20px;
  padding: 20px;
- border: 2px soldi white;
  border-radius: 25px;
  background-color: rgb(244, 244, 242);
 }
@@ -65,5 +64,16 @@
   color: white;
   padding: 10px;
   border-radius: 12px;
+}
+.applynow:hover {
+  background-color: rgb(116, 121, 125);
+  cursor: pointer;
+
+}
+
+.savebtn:hover {
+  background-color: rgb(116, 121, 125);
+  cursor: pointer;
+
 }
 
