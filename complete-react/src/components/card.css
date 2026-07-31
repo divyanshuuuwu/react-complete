@@ -1,6 +1,69 @@
+
+
 .card{
-  background-color: rgb(153, 8, 33);
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px
+ height: 350px;
+ width: 250px;
+ margin: 20px;
+ padding: 20px;
+ border: 2px soldi white;
+ border-radius: 25px;
+ background-color: rgb(244, 244, 242);
 }
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.top img{
+  height: 60px;
+  width: 60px;
+}
+.savebtn{
+  margin-top: 15px;
+  height: 25px;
+  width: 50px;
+  background-color: rgb(177, 181, 181);
+  border: none;
+  border-radius: 20px;
+}
+
+.center span{
+  height: 20px;
+  width: 40px;
+  background-color: rgb(210, 209, 207);
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 8px;
+}
+.center h3{
+  height: 50px;
+}
+.center h1{
+  height: 50px;
+}
+
+.center{
+  margin-top: 20px;
+  height: 200px;
+  width: 250px;
+}
+
+.bottom{
+  border-top: 2px solid rgba(204, 196, 196, 0.267);
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.applynow{
+  height: 35px;
+  border: none;
+  background-color: rgb(68, 66, 66);
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
