@@ -111,8 +111,12 @@ const App = () => {
 
   return (
     <div className='cards-container'>
-      {jobOpenings.map(function(data){
-        return <Card data={data}/>
+      {jobOpenings.map(function(data, index){
+        console.log(index);
+        
+        return <div key={index}>
+          <Card data={data}/>
+        </div>
 
       })}
       
